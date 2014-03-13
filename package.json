@@ -1,6 +1,9 @@
 {
-    "name": "blacklionchest",
-    "version": "0.1.0",
-    "homepage": "https://github.com/voodoochild/blc-harp",
-    "repository": "https://github.com/voodoochild/blc-harp"
+  "name": "blacklionchest",
+  "version": "0.1.0",
+  "homepage": "https://github.com/voodoochild/blacklionchest",
+  "repository": "https://github.com/voodoochild/blacklionchest",
+  "devDependencies": {
+    "grunt-shell": "~0.6.4"
+  }
 }
