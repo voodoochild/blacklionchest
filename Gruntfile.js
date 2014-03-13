@@ -3,11 +3,15 @@ module.exports = function(grunt) {
     // Config
     grunt.initConfig({
         shell: {
-            build: {
-                command: 'rm -rf dist; harp compile _harp dist; find dist -name "*.DS_Store" -type f -delete'
+            clean: {
+                command: 'rm -rf dist'
             },
 
-            publish: {
+            build: {
+                command: 'harp compile _harp dist; find dist -name "*.DS_Store" -type f -delete'
+            },
+
+            deploy: {
                 command: 'scp -r dist/* blacklionchest:~/blacklionchest_www'
             }
         }
@@ -17,7 +21,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-shell');
 
     // Custom tasks
-    grunt.registerTask('build', 'shell:build');
-    grunt.registerTask('deploy', 'shell:publish');
+    grunt.registerTask('default', ['shell:clean', 'shell:build', 'shell:deploy', 'shell:clean']);
 
 };
