@@ -1,13 +1,11 @@
-<%
-    // If a post is being displayed, work out the prev and next posts
+<%  // If a post is being displayed, work out the prev and next posts
     if (current.path[0] === 'posts' && current.path[1] !== 'index') {
         var posts = Object.keys(public.posts._data).reverse();
         var index = posts.indexOf(current.source);
         var prevPost = posts[index - 1] || false;
         var nextPost = posts[index + 1] || false;
     }
-%>
-<!DOCTYPE html>
+%><!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
