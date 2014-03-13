@@ -1,5 +1,6 @@
 <%  // If a post is being displayed, work out the prev and next posts
-    if (current.path[0] === 'posts' && current.path[1] !== 'index') {
+    var isPost = current.path[0] === 'posts' && current.path[1] !== 'index';
+    if (isPost) {
         var posts = Object.keys(public.posts._data).reverse();
         var index = posts.indexOf(current.source);
         var prevPost = posts[index - 1] || false;
@@ -25,23 +26,21 @@
 <body>
     <div role="container">
         <header role="banner">
-            <% if (current.path[0] === 'index') { %>
-                <h1><a href="/" rel="home"><%= name %></a></h1>
-            <% } else { %>
+            <% if (isPost) { %>
                 <a href="/" rel="home" class="site-name"><%= name %></a>
-                <% if (typeof noPageTitle === 'undefined' || noPageTitle === false) { %>
-                    <h1 class="article-title"><%= title %></h1>
-                <% } %>
+                <h1 class="article-title"><%= title %></h1>
+            <% } else { %>
+                <h1><a href="/" rel="home"><%= name %></a></h1>
             <% } %>
         </header>
         <main>
             <%- yield %>
             <nav class="posts-nav">
-                <% if (prevPost) { %>
-                    <b>Previous post:</b> <a href="/posts/<%= prevPost %>"><%= public.posts._data[prevPost].title %></a><br>
-                <% } %>
                 <% if (nextPost) { %>
-                    <b>Next post:</b> <a href="/posts/<%= nextPost %>"><%= public.posts._data[nextPost].title %></a>
+                    <b>Next post:</b> <a href="/posts/<%= nextPost %>"><%= public.posts._data[nextPost].title %></a><br>
+                <% } %>
+                <% if (prevPost) { %>
+                    <b>Previous post:</b> <a href="/posts/<%= prevPost %>"><%= public.posts._data[prevPost].title %></a>
                 <% } %>
             </nav>
         </main>
