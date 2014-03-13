@@ -1,3 +1,12 @@
+<%
+    // If a post is being displayed, work out the prev and next posts
+    if (current.path[0] === 'posts' && current.path[1] !== 'index') {
+        var posts = Object.keys(public.posts._data).reverse();
+        var index = posts.indexOf(current.source);
+        var prevPost = posts[index - 1] || false;
+        var nextPost = posts[index + 1] || false;
+    }
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +16,10 @@
     <meta name="author" content="https://plus.google.com/u/0/106652029485012349674">
     <meta name="description" content="<%= description %>">
     <title><% if (typeof title !== 'undefined') { %><%= title %> | <% } %><%= name %></title>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <% if (prevPost) { %><link rel="prev" href="/posts/<%= prevPost %>" /><% } %>
+    <% if (nextPost) { %><link rel="next" href="/posts/<%= nextPost %>" /><% } %>
     <script type="text/javascript" src="/javascripts/modernizr.js"></script>
     <script type="text/javascript" src="//use.typekit.net/pjg7hsj.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -27,6 +38,14 @@
         </header>
         <main>
             <%- yield %>
+            <nav class="posts-nav">
+                <% if (prevPost) { %>
+                    <b>Previous post:</b> <a href="/posts/<%= prevPost %>"><%= public.posts._data[prevPost].title %></a><br>
+                <% } %>
+                <% if (nextPost) { %>
+                    <b>Next post:</b> <a href="/posts/<%= nextPost %>"><%= public.posts._data[nextPost].title %></a>
+                <% } %>
+            </nav>
         </main>
         <footer id="footer">
             <small>&copy; <%= new Date().getFullYear() %></small>
