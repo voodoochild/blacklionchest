@@ -88,10 +88,6 @@ blockquote {
     }
 }
 
-.post {
-    margin-bottom: 2em;
-}
-
 #footer {
     margin-top: 3em;
 
@@ -110,6 +106,10 @@ blockquote {
         margin-left: 2em;
         vertical-align: middle;
     }
+}
+
+.posted-by {
+    color: $faded;
 }
 
 .attribution {

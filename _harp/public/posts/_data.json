@@ -1,26 +1,32 @@
 {
     "top-three-quality-of-life-reddit": {
         "title": "Quality of life",
-        "published": "Feb 28, 2014"
+        "published": "Feb 28, 2014",
+        "author": "Sayana"
     },
     "fractured-developer-preview": {
         "title": "‘Fractured’ developer preview",
-        "published": "Nov 25, 2013"
+        "published": "Nov 25, 2013",
+        "author": "Sayana"
     },
     "reddit-roundup-1": {
         "title": "Reddit round-up",
-        "published": "Nov 18, 2013"
+        "published": "Nov 18, 2013",
+        "author": "Sayana"
     },
     "obsidian-sanctum-update": {
         "title": "Obsidian Sanctum update",
-        "published": "Nov 11, 2013"
+        "published": "Nov 11, 2013",
+        "author": "Sayana"
     },
     "home-improvements": {
         "title": "Home improvements",
-        "published": "Nov 10, 2013"
+        "published": "Nov 10, 2013",
+        "author": "Sayana"
     },
     "blood-and-madness": {
         "title": "Blood and Madness",
-        "published": "Oct 31, 2013"
+        "published": "Oct 31, 2013",
+        "author": "Sayana"
     }
 }

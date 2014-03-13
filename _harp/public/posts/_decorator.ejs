@@ -1,0 +1,14 @@
+<article>
+    <header>
+        <span class="posted-by">Posted by <b><%- post.author %></b> on <%- post.published %></span>
+    </header>
+    <%- yield %>
+</article>
+<nav class="posts-nav">
+    <% if (nextPost) { %>
+        <b>Next post:</b> <a href="/posts/<%= nextPost %>"><%- public.posts._data[nextPost].title %></a><br>
+    <% } %>
+    <% if (prevPost) { %>
+        <b>Previous post:</b> <a href="/posts/<%= prevPost %>"><%- public.posts._data[prevPost].title %></a>
+    <% } %>
+</nav>
