@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+$compressed: true;
+
+@import '_mixins';
+@import '_base';
+@import '_type';
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $background;
+}
+
+div[role="container"] {
+    margin: 0 auto;
+    padding: 2em 1em 1em;
+    position: relative;
+    width: 100%;
+
+    @include breakpoint(desktop) {
+        width: 600px;
+
+        &:before {
+            background-image: url(http://assets.blacklionchest.co.uk/images/chest.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            content: '';
+            height: 100px;
+            position: absolute;
+            top: 15px;
+            left: -90px;
+            width: 100px;
+        }
+    }
+}
+
+#about {
+    margin-bottom: 2em;
+}
+
+a {
+    border-bottom: 1px solid $faded;
+    @include transition(border-bottom-color .1s ease-in-out);
+
+    &:hover {
+        border-bottom-color: $highlight;
+    }
+}
+
+h2 a {
+    border-bottom: none;
+    color: $foreground;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+ul {
+    padding-left: 1em;
+
+    @include breakpoint(tablet) {
+        padding-left: 2em;
+    }
+}
+
+figure {
+    margin: 0;
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+blockquote {
+    border-left: 0.3em solid $highlight;
+    margin: 2em 0;
+    padding-left: 1em;
+
+    @include breakpoint(tablet) {
+        border-left-width: 0.5em;
+        margin-right: 5em;
+    }
+}
+
+.post {
+    margin-bottom: 2em;
+}
+
+#footer {
+    margin-top: 3em;
+
+    a {
+        margin-left: .5em;
+    }
+}
+
+.twitter-follow-button {
+    display: block;
+    margin-top: 1em;
+
+    @include breakpoint(tablet) {
+        display: inline-block;
+        margin-top: 0;
+        margin-left: 2em;
+        vertical-align: middle;
+    }
+}
+
+.attribution {
+    display: block;
+    margin-top: .5em;
+
+    a {
+        border: none;
+    }
+}
+
+hr {
+    border: 0;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.45), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.45), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.45), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.45), rgba(0,0,0,0));
+    height: 1px;
+    margin: 2em 0;
+}
+
+p.date {
+    margin-bottom: 2em;
+}
+
+p + h2 {
+    margin-top: 2em;
+}
+
+ul.posts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        clear: both;
+    }
+
+    li + li {
+        margin-top: .5em;
+    }
+
+    .post-title {
+        border-bottom: 0;
+        color: $foreground;
+    }
+
+    .post-published {
+        color: $faded;
+        display: block;
+        float: left;
+        margin-bottom: 1em;
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            display: inline-block;
+            float: right;
+            margin-bottom: 0;
+            width: auto;
+        }
+    }
+}

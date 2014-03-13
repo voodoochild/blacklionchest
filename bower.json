@@ -1,0 +1,7 @@
+{
+  "name": "Black Lion Chest",
+  "version": "0.1.0",
+  "dependencies": {
+    "normalize-scss": "~3.0.0"
+  }
+}

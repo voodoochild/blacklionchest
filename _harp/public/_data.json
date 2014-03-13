@@ -1,0 +1,10 @@
+{
+    "about": {
+        "title": "About",
+        "noPageTitle": true
+    },
+    "colophon": {
+        "title": "Colophon",
+        "noPageTitle": true
+    }
+}

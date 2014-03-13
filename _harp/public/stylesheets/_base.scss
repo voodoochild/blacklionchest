@@ -1,0 +1,25 @@
+// Reset
+@import '../../bower_components/normalize-scss/_normalize';
+
+// Colours
+$foreground: #333;
+$faded: lighten($foreground, 50%);
+$background: #fff;
+$highlight: #dd1f3e;
+
+// Fonts
+$serif: serif;
+$normal: 400;
+$semibold: 600;
+$bold: 700;
+
+.wf-active {
+    $serif: "chaparral-pro", georgia, serif;
+}
+
+%type-1 { @include font($serif, $bold,     48, 58); }
+%type-2 { @include font($serif, $semibold, 36, 36); }
+%type-3 { @include font($serif, $normal,   18, 18); }
+%type-4 { @include font($serif, $normal,   16, 20); }
+%type-5 { @include font($serif, $normal,   16, 26); }
+%type-6 { @include font($serif, $normal,   14, 14); }
