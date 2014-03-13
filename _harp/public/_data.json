@@ -6,5 +6,8 @@
     "colophon": {
         "title": "Colophon",
         "noPageTitle": true
+    },
+    "feed": {
+        "layout": false
     }
 }

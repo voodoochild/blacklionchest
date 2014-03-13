@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title><%- name %></title>
+        <link><%- url %></link>
+        <description><%- description %></description>
+        <atom:link href="<%- url %>/feed.xml" rel="self" type="application/rss+xml" />
+        <%
+        for (var i = 0; i < Object.keys(public.posts._data).length; i++) {
+            var slug = Object.keys(public.posts._data)[i];
+            var post = public.posts._data[slug];
+            var published = new Date(Date.parse(post.published)).toUTCString();
+        %>
+            <item>
+                <title><%- post.title %></title>
+                <description><![CDATA[<%- partial("posts/" + slug) %>]]></description>
+                <pubDate><%- published %></pubDate>
+                <link><%- url %>/posts/<%- slug %></link>
+                <guid isPermaLink="true"><%- url %>/posts/<%- slug %></guid>
+            </item>
+        <% } %>
+    </channel>
+</rss>
