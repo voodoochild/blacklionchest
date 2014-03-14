@@ -17,7 +17,3 @@ if you’re interested or would like to reuse the code to run your own blog.
 - `cd blacklionchest`
 - `bower install`
 - `harp server _harp`
-
-## Todo
-
-- markup articles with schema.org

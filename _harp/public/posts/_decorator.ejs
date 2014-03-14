@@ -1,8 +1,11 @@
-<article>
+<article itemscope itemtype="http://schema.org/BlogPosting">
     <header>
-        <span class="posted-by">Posted by <b><%- post.author %></b> on <%- post.published %></span>
+        <h1 class="article-title" itemprop="name"><a rel="bookmark" href="/posts/<%- current.source %>"><%- title %></a></h1>
+        <span class="posted-by">Posted by <b rel="author"><%- post.author %></b> on <time itemprop="datePublished"><%- post.published %></time></span>
     </header>
-    <%- yield %>
+    <div itemprop="articleBody">
+        <%- yield %>
+    </div>
 </article>
 <nav class="posts-nav">
     <% if (nextPost) { %>
