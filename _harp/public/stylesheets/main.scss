@@ -140,6 +140,9 @@ p + h2 {
 }
 
 .posts-nav {
+    border-top: 1px solid lighten($faded, 20%);
+    padding-top: 1em;
+
     b {
         display: inline-block;
         width: 130px;
