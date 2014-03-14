@@ -15,5 +15,5 @@ if you’re interested or would like to reuse the code to run your own blog.
 
 - `git clone https://github.com/voodoochild/blacklionchest.git`
 - `cd blacklionchest`
-- `bower install`
+- `npm install && bower install`
 - `harp server _harp`
