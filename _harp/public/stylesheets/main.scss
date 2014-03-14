@@ -182,3 +182,11 @@ ul.posts {
         }
     }
 }
+
+.social {
+    padding-bottom: 1em;
+    
+    & > span, iframe {
+        vertical-align: bottom;
+    }
+}
