@@ -22,6 +22,6 @@ module.exports = function(grunt) {
 
     // Custom tasks
     grunt.registerTask('default', ['shell:run']);
-    grunt.registerTask('build',   ['shell:clean', 'harp:dist']);
+    grunt.registerTask('build',   ['shell:clean', 'shell:build']);
     grunt.registerTask('deploy',  ['shell:deploy', 'shell:clean']);
 };

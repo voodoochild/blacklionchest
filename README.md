@@ -17,3 +17,9 @@ if you’re interested or would like to reuse the code to run your own blog.
 - `cd blacklionchest`
 - `npm install && bower install`
 - `harp server _harp`
+
+## Todo
+
+- static versioning of assets
+- configure correct cache headers for all assets
+- analyze performance and decrease time to first paint
