@@ -3,12 +3,18 @@ module.exports = function(grunt) {
     grunt.initConfig({
         shell: {
             run: {
+                options: {
+                    stdout: true
+                },
                 command: 'harp server _harp'
             },
             clean: {
                 command: 'rm -rf dist'
             },
             build: {
+                options: {
+                    stdout: true
+                },
                 command: 'harp compile _harp dist; find dist -name "*.DS_Store" -type f -delete'
             },
             deploy: {
