@@ -1,8 +1,9 @@
-The latest episode of Points of Interest, while not offering up any new
-information for veteran players, made me take a moment and appreciate a lot of
-the things that make Guild Wars 2 a special game that I often take for granted.
-For me, it comes down to two main things: you don’t *have* to be a dick to other
-people, and you're not penalised for playing something else.
+The latest episode of [Points of Interest](http://www.twitch.tv/guildwars2/c/5189579),
+while not offering up any new information for veteran players, made me take a
+moment and appreciate a lot of the things that make Guild Wars 2 a special game
+that I often take for granted. For me, it comes down to two main things: you
+don’t *have* to be a dick to other people, and you're not penalised for playing
+something else.
 
 ### Keep it to yourself
 
