@@ -1,5 +1,5 @@
 This [Guild Wars 2](https://www.guildwars2.com/en/) blog aims to provide interesting
-articles and useful tools for other players. Everything posted is written by me, **Sayana**,
+articles and useful tools for other players. Everything posted is written by me, **Kriss**,
 a London–based web developer and GW2 player on the **Aurora Glade** server with the wonderful
 [Dragon Season](http://dragonseason.com/).
 

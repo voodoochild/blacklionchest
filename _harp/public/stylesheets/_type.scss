@@ -104,6 +104,10 @@ small {
 blockquote {
     @extend %type-5;
     font-style: italic;
+
+    cite {
+        font-weight: bold;
+    }
 }
 
 #footer {
