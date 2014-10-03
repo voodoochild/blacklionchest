@@ -68,8 +68,8 @@ skins added to the open world and as non–ascended crafting recipes, but I expe
 we’ll be waiting for an expansion for that to happen.
 
 In the mean time, buy these new outfits if you like them (or not, if you don’t) when
-they’re released, get creative with dyes, and try to make yourself look awesome. I
-can’t wait to see what people come up with.
+they’re released, get creative with dyes, and try to make your characters look awesome.
+I can’t wait to see what people come up with.
 
 
 [1]: https://twitter.com/that_shaman/
