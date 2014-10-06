@@ -22,7 +22,7 @@ div[role="container"] {
     width: 100%;
 
     @include breakpoint(desktop) {
-        width: 600px;
+        width: 700px;
 
         &:before {
             background-image: url(/images/chest.png);
@@ -139,6 +139,10 @@ p + h2 {
     margin-top: 2em;
 }
 
+p + ul {
+    margin-top: -.75em;
+}
+
 .posts-nav {
     border-top: 1px solid lighten($faded, 20%);
     border-bottom: 1px solid lighten($faded, 20%);
@@ -195,4 +199,9 @@ ul.posts {
 
 .twitter-tweet + p {
   margin-top: 40px;
+}
+
+.pull-right {
+    float: right;
+    margin-left: 1em;
 }
