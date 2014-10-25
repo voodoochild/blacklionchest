@@ -1,10 +1,5 @@
-This [Guild Wars 2](https://www.guildwars2.com/en/) blog aims to provide interesting
-articles and useful tools for other players. Everything posted is written by me, **Sayana**,
-a London–based web developer and GW2 player on the **Aurora Glade** server with the wonderful
-[Dragon Season](http://dragonseason.com/).
-
-I’m almost 30 and have been an avid gamer for 25 of those years. I’ve been a citizen of Tyria since
-August 2012, having previously played *World of Warcraft* and *Star Wars: The Old Republic*, mostly
+I’ve been avid gamer for 25 years, and a citizen of Tyria since August 2012,
+having previously played *World of Warcraft* and *Star Wars: The Old Republic*, mostly
 in <abbr title="Player vs. Environment">PvE</abbr> raid content as opposed to
 <abbr title="Player vs. Player">PvP</abbr>, which I’ve never been all that good at.
 
