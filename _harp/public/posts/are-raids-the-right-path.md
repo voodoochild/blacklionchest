@@ -1,3 +1,9 @@
+> It’s with great pleasure that I’d like to present you with the first guest post on Black Lion
+> Chest. I met Ed, aka [Screenag3r][8], at [EGX London][5] and got the impression very quickly that
+> he’s someone who  enjoys Guild Wars 2 as much as I do. This post is his take on the prospect of
+> raiding being added  to the game. I  discussed it [recently][6], and think that Ed brings some
+> very interesting points, so keep reading, and [let us know][7] what you think!—**Kriss**
+
 Playing video games is far from a solitary experience now. The prevalence and power of technology
 allows all of us to leap into an alien world or siege an ancient castle with allies from around the
 world. Until recently the Massive Multiplayer Online Role Play Game was unique in the multiplayer
@@ -86,3 +92,7 @@ Tyria.
 [2]: https://www.guildwars2.com/en/the-game/releases/september-17-2013/
 [3]: http://www.junkiesnation.com/2013/09/18/gw2-world-first-kill-of-tequatl-blackgate-91713/
 [4]: https://www.guildwars2.com/en/the-game/releases/january-21-2014/
+[5]: http://www.egxlondon.net/
+[6]: /posts/guild-raids
+[7]: https://twitter.com/blacklionchest
+[8]: https://twitter.com/screenag3r

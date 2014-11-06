@@ -110,6 +110,10 @@ blockquote {
 
 .posted-by {
     color: $faded;
+
+    [rel="author"] {
+      color: $darkGrey;
+    }
 }
 
 .attribution {
