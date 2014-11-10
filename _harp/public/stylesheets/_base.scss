@@ -9,13 +9,13 @@ $highlight: #dd1f3e;
 $darkGrey: #5a5a5a;
 
 // Fonts
-$serif: serif;
+$serif: Georgia, serif;
 $normal: 400;
 $semibold: 600;
 $bold: 700;
 
 .wf-active {
-    $serif: "chaparral-pro", georgia, serif;
+    $serif: "chaparral-pro", $serif;
 }
 
 %type-1 { @include font($serif, $bold,     48, 58); }

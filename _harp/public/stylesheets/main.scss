@@ -11,6 +11,10 @@ $compressed: true;
     box-sizing: border-box;
 }
 
+* + * {
+  margin-top: 1.5em;
+}
+
 body {
     background-color: $background;
 }
@@ -75,6 +79,10 @@ figure {
     img {
         width: 100%;
     }
+
+    figcaption {
+        margin-top: .5em;
+    }
 }
 
 blockquote {
@@ -83,8 +91,8 @@ blockquote {
     padding-left: 1em;
 
     @include breakpoint(tablet) {
-        border-left-width: 0.5em;
-        margin-right: 5em;
+        border-left-width: .5em;
+        margin-right: .5em;
     }
 }
 
@@ -159,6 +167,10 @@ p + ul {
     }
 }
 
+li + li {
+    margin-top: .5em;
+}
+
 ul.posts {
     list-style: none;
     margin: 0;
@@ -166,10 +178,6 @@ ul.posts {
 
     li {
         clear: both;
-    }
-
-    li + li {
-        margin-top: .5em;
     }
 
     .post-title {
