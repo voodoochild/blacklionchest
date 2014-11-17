@@ -1,13 +1,8 @@
 {
-    "about": {
-        "title": "About",
-        "noPageTitle": true
-    },
-    "colophon": {
-        "title": "Colophon",
-        "noPageTitle": true
-    },
-    "feed": {
-        "layout": false
-    }
+  "index": {
+    "title": ""
+  },
+  "feed": {
+    "layout": false
+  }
 }

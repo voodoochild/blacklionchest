@@ -4,7 +4,7 @@ abilities. One potentially interesting way that ArenaNet could commemorate the d
 would be to let us players unlock and use some of those trademark abilities for ourselves. Here are
 a few abilities that I think could be unlocked for us all to use.
 
-## Toxic Alliance
+<h2 class="h3">Toxic Alliance</h2>
 
 **Toxic Pollen** – *Place a Toxic Pollen (poison field) at your location. Enemies that get too close
 to the pollen are afflicted with an Hallucination, either a poisonous Spider or an Ettin which

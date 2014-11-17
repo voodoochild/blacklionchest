@@ -2,25 +2,13 @@
 @import '../../bower_components/normalize-scss/_normalize';
 
 // Colours
-$foreground: #333;
-$faded: lighten($foreground, 50%);
-$background: #fff;
-$highlight: #dd1f3e;
-$darkGrey: #5a5a5a;
+$white: #fff;
+$pink: #dd1f3e;
+$grey: #555;
+$dark-grey: #333;
+$light-grey: #676767;
+$lightest-grey: #f9f9f9;
 
 // Fonts
-$serif: Georgia, serif;
-$normal: 400;
-$semibold: 600;
-$bold: 700;
-
-.wf-active {
-    $serif: "chaparral-pro", $serif;
-}
-
-%type-1 { @include font($serif, $bold,     48, 58); }
-%type-2 { @include font($serif, $semibold, 36, 36); }
-%type-3 { @include font($serif, $normal,   18, 18); }
-%type-4 { @include font($serif, $normal,   16, 20); }
-%type-5 { @include font($serif, $normal,   16, 26); }
-%type-6 { @include font($serif, $normal,   14, 14); }
+$serif: "Lora", Georgia, serif;
+$sans-serif: "Open Sans", Arial, sans-serif;

@@ -1,0 +1,14 @@
+<ul class="posts">
+  <%
+    var l = Object.keys(public.posts._data).length;
+    if (typeof limit !== 'undefined') { l = Math.min(limit, l); }
+    for (var i = 0; i < l; i++) {
+      var slug = Object.keys(public.posts._data)[i];
+      var post = public.posts._data[slug];
+  %>
+    <li class="post">
+      <a class="post-title h3" href="/posts/<%= slug %>"><%= post.title %></a>
+      <span class="post-published"><%= post.published %></span>
+    </li>
+  <% } %>
+</ul>

@@ -38,7 +38,7 @@ Sadly, however, that doesn’t follow through into a lot of the Living World con
 
 I’ve wanted this since the game launched! The artwork and world design in Guild Wars 2 is fantastic; I only wish I could fit more of it onto my screen at one time. There are a handful of boss fights that zoom your camera out, but I wish we had the option to do it all the time.
 
-## Other topics being discussed
+<h2 class="h3">Other topics being discussed</h2>
 
 There are a lot of suggestions pertaining to the Trading Post, largely around improvements to the interface, better ways to sort items, etc. While this would definitely be nice to have, I feel like the current system does just about work without too much grief, and as such I’d rather wait a while longer for a complete overhaul instead of minor enhancements.
 

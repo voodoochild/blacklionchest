@@ -1,87 +1,138 @@
 {
-    "are-raids-the-right-path": {
-        "title": "Are raids the right path?",
-        "published": "Oct 24, 2014",
-        "author": "Edward Orr"
-    },
-    "thats-flippin-teamwork": {
-        "title": "That’s flippin’ teamwork",
-        "published": "Oct 13, 2014",
-        "author": "Kriss Watt"
-    },
-    "guild-raids": {
-        "title": "Guild raids",
-        "published": "Oct 6, 2014",
-        "author": "Kriss Watt"
-    },
-    "new-outfits": {
-        "title": "New outfits",
-        "published": "Oct 3, 2014",
-        "author": "Kriss Watt"
-    },
-    "appreciation": {
-        "title": "Appreciation",
-        "published": "Sep 27, 2014",
-        "author": "Kriss Watt"
-    },
-    "dragons-reach-part-two": {
-        "title": "Dragons Reach, Part 2",
-        "published": "Aug 13, 2014",
-        "author": "Kriss Watt"
-    },
-    "season-two-episode-one": {
-        "title": "Season two, episode one",
-        "published": "Jul 2, 2014",
-        "author": "Kriss Watt"
-    },
-    "in-the-interim": {
-        "title": "In the interim",
-        "published": "Jun 18, 2014",
-        "author": "Kriss Watt"
-    },
-    "as-the-dust-settles": {
-        "title": "As the dust settles",
-        "published": "Mar 27, 2014",
-        "author": "Kriss Watt"
-    },
-    "season-one-in-review": {
-        "title": "Season One in review",
-        "published": "Mar 17, 2014",
-        "author": "Kriss Watt"
-    },
-    "living-world-skills": {
-        "title": "Living World skills",
-        "published": "Mar 14, 2014",
-        "author": "Kriss Watt"
-    },
-    "top-three-quality-of-life-reddit": {
-        "title": "Quality of life",
-        "published": "Feb 28, 2014",
-        "author": "Kriss Watt"
-    },
-    "fractured-developer-preview": {
-        "title": "Fractured developer preview",
-        "published": "Nov 25, 2013",
-        "author": "Kriss Watt"
-    },
-    "reddit-roundup-1": {
-        "title": "Reddit round-up",
-        "published": "Nov 18, 2013",
-        "author": "Kriss Watt"
-    },
-    "obsidian-sanctum-update": {
-        "title": "Obsidian Sanctum update",
-        "published": "Nov 11, 2013",
-        "author": "Kriss Watt"
-    },
-    "home-improvements": {
-        "title": "Home improvements",
-        "published": "Nov 10, 2013",
-        "author": "Kriss Watt"
-    },
-    "blood-and-madness": {
-        "title": "Blood and Madness",
-        "published": "Oct 31, 2013",
-        "author": "Kriss Watt"
+  "are-raids-the-right-path": {
+    "title": "Are raids the right path?",
+    "published": "Oct 24, 2014",
+    "author": {
+      "name": "Edward Orr",
+      "link": "https://twitter.com/screenag3r"
     }
+  },
+  "thats-flippin-teamwork": {
+    "title": "That’s flippin’ teamwork",
+    "published": "Oct 13, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "guild-raids": {
+    "title": "Guild raids",
+    "published": "Oct 6, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "new-outfits": {
+    "title": "New outfits",
+    "published": "Oct 3, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "appreciation": {
+    "title": "Appreciation",
+    "published": "Sep 27, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "dragons-reach-part-two": {
+    "title": "Dragons Reach, Part 2",
+    "published": "Aug 13, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "season-two-episode-one": {
+    "title": "Season two, episode one",
+    "published": "Jul 2, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "in-the-interim": {
+    "title": "In the interim",
+    "published": "Jun 18, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "as-the-dust-settles": {
+    "title": "As the dust settles",
+    "published": "Mar 27, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "season-one-in-review": {
+    "title": "Season One in review",
+    "published": "Mar 17, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "living-world-skills": {
+    "title": "Living World skills",
+    "published": "Mar 14, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "top-three-quality-of-life-reddit": {
+    "title": "Quality of life",
+    "published": "Feb 28, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "fractured-developer-preview": {
+    "title": "Fractured developer preview",
+    "published": "Nov 25, 2013",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "reddit-roundup-1": {
+    "title": "Reddit round-up",
+    "published": "Nov 18, 2013",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "obsidian-sanctum-update": {
+    "title": "Obsidian Sanctum update",
+    "published": "Nov 11, 2013",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "home-improvements": {
+    "title": "Home improvements",
+    "published": "Nov 10, 2013",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
+  "blood-and-madness": {
+    "title": "Blood and Madness",
+    "published": "Oct 31, 2013",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  }
 }

@@ -4,8 +4,6 @@
 
 The return of the Molten Facility and the Aetherblade Retreat pave the way for much–loved Living Story content to have its lifespan extended, which is definitely a good thing. Eventually, I foresee some of the original instances being retired (I’m looking at you, Dredge fractal) to make room, which would help to keep things fresh and interesting. [Let me know](https://twitter.com/blacklionchest) what you think, and I hope to see you in there!
 
----
-
 Aetherblade shown first. Rotation changed to include easier fractals first. Aetherblade one of the harder instances. **New icon: mistlock instability**. “Last Laugh” - enemies explode when killed. New traps. Elite level mobs. Electried floor changed to be a pattern instead of “wait and go”. Mai Trin is a boss fractal. Easier in level 1, old difficulty around level 20. Past that, harder. Fight changed to reduce lengthy phases. Both Aetherblade and Thaumanova are “third” level instances. Molten is second.
 
 Level reset is due to rebalancing. New content from 30 to 50. Didn't feel right for people to be at level 50 already. Tied in with leaderboards and a new “race to the top”. 50+ is currently not possible until new instabilities are added. Each level after 30 has its own instability. **Instabilities start at 31 and go to 50 and are unique to each level**. Leaderboard ranks are currently “first come first served”. They’ll see how that works as they add more fractal levels.

@@ -1,17 +1,26 @@
 <article itemscope itemtype="http://schema.org/BlogPosting">
-    <header>
-        <h1 class="article-title" itemprop="name"><a rel="bookmark" href="/posts/<%- current.source %>"><%- title %></a></h1>
-        <span class="posted-by">Posted by <b rel="author"><%- post.author %></b> on <time itemprop="datePublished"><%- post.published %></time></span>
-    </header>
-    <div itemprop="articleBody">
-        <%- yield %>
-    </div>
+  <div id="masthead">
+    <h1 class="article-name center h2" itemprop="name"><a rel="bookmark" href="/posts/<%- current.source %>"><%- title %></a></h1>
+  </div>
+  <div id="content" class="center" itemprop="articleBody">
+    <div class="posted-by">Posted by <a href="<%- post.author.link %>" target="_blank" rel="author"><%- post.author.name %></a> on <time itemprop="datePublished"><%- post.published %></time></div>
+    <%- yield %>
+    <nav class="posts-nav">
+      <h2>Read more</h2>
+      <ul>
+        <% if (nextPost) { %>
+          <li>
+            <a href="/posts/<%= nextPost %>"><%- public.posts._data[nextPost].title %></a>
+            <span class="post-published"><%- public.posts._data[nextPost].published %></span>
+          </li>
+        <% } %>
+        <% if (prevPost) { %>
+          <li>
+            <a href="/posts/<%= prevPost %>"><%- public.posts._data[prevPost].title %></a>
+            <span class="post-published"><%- public.posts._data[prevPost].published %></span>
+          </li>
+        <% } %>
+      </ul>
+    </nav>
+  </div>
 </article>
-<nav class="posts-nav">
-    <% if (nextPost) { %>
-        <b>Next post:</b> <a href="/posts/<%= nextPost %>"><%- public.posts._data[nextPost].title %></a><br>
-    <% } %>
-    <% if (prevPost) { %>
-        <b>Previous post:</b> <a href="/posts/<%= prevPost %>"><%- public.posts._data[prevPost].title %></a>
-    <% } %>
-</nav>

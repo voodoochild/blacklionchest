@@ -1,7 +1,7 @@
 ArenaNet Studio Design Director, Chris Whiteside, [announced][1] on the official forums that there
 will be a  <abbr title="Collaborative Development Initiative">CDI</abbr> on the subject of
 guild raiding, backing up assumptions that were already being made in the community based on a new
-‘[Game Designer: Raid Content][2]’ job posting that appeared on their site this week. This, of
+[Game Designer: Raid Content][2] job posting that appeared on their site this week. This, of
 course, has everybody scrambling to discuss how they think that they should be implemented, if at
 all.
 
@@ -34,8 +34,6 @@ If, as we’re currently lead to suspect, there is to be a shift in design princ
 allowing guilds to tackle boss encounters behind closed doors, it could be an indication that ArenaNet
 is trying to draw in new or returning players; those who may have avoided Guild Wars 2 because of the
 lack of strong PvE end–game, or those who have left the game due to the same perceived shortcomings.
-
-<img class="pull-right" src="http://wiki.guildwars2.com/images/thumb/5/55/Ascended_armor_concept_art1.jpg/362px-Ascended_armor_concept_art1.jpg" height="300" alt="Heavy ascended armor" />
 
 In most games, the classic reason for completing raid content is to progress to the next step on the
 gear treadmill (a phrase commonly used to denote armor and weapons becoming obsolete with each major
