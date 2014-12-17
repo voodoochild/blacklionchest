@@ -1,4 +1,12 @@
 {
+  "the-daily-show": {
+    "title": "The Daily Show",
+    "published": "Dec 17, 2014",
+    "author": {
+      "name": "Kriss Watt",
+      "link": "https://twitter.com/blacklionchest"
+    }
+  },
   "new-player-experience": {
     "title": "New player experience",
     "published": "Nov 18, 2014",
