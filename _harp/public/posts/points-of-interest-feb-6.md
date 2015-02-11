@@ -1,4 +1,4 @@
-Rubi Bayer, Steve Hwang, Anthony Ordon
+*Hosted by Rubi Bayer, with Steve Hwang, and Anthony Ordon*
 
 Looks like we start in the jungle summit with the wrecked Pact Fleet: Verdant Brink.
 Working through the Pale Reaver outpost events that were mentioned in the week. Pulling

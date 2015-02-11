@@ -1,4 +1,4 @@
-Rubi Bayer, Colin Johanson, Steven Waller
+*Hosted by Rubi Bayer, with Colin Johanson, and Steven Waller*
 
 Today gave us the first Points of Interest since Guild Wars 2 reached the Point of No Return, and
 slipped us a glimpse at it's dark Heart of Thorns.
