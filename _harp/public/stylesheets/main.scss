@@ -87,6 +87,9 @@ p {
 }
 blockquote {
   background: #f9f9f9;
+  border: 3px solid #f4f4f4;
+  font-size: 1.8rem;
+  font-style: italic;
   margin-left: 0;
   margin-right: 0;
   padding: .5em;
@@ -98,17 +101,17 @@ blockquote {
   }
 
   &::before {
+    color: #a0a0a0;
     content: open-quote;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: .1em;
-    margin-right: .2em;
     vertical-align: -.4em;
   }
   &::after {
+    color: #a0a0a0;
     content: close-quote;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: .1em;
-    margin-left: .2em;
     vertical-align: -.4em;
   }
   p {
