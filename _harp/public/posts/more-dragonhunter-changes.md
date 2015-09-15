@@ -161,7 +161,7 @@ happy with the playstyle that is opened up by taking the Dragonhunter elite spec
 excited to see how it can be applied to challenging content.
 
 
-[0]: www.guildmag.com/bwe2-dragonhunter/
+[0]: http://www.guildmag.com/bwe2-dragonhunter/
 [1]: https://forum-en.guildwars2.com/forum/professions/guardian/BWE-3-Dragonhunter-Specialization-Changes
 [2]: https://wiki.guildwars2.com/wiki/Wrath_of_Justice
 [3]: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Trapper
